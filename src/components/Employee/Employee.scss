@@ -1,0 +1,8 @@
+@use "../../assets/sass/variables" as *;
+
+.employee-content {
+  color: $employee-text-colour;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 10px;
+}

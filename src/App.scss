@@ -1,0 +1,36 @@
+@use "./assets/sass/typography";
+@use "./assets/sass/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: $background-colour;
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-title {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.employee-grid {
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+
+  &__card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: $employee-card-colour;
+    box-shadow: 0px 2px 2px 1px gray;
+    height: 300px;
+    width: 250px;
+    padding-left: 5px;
+  }
+}
