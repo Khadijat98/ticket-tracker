@@ -26,26 +26,36 @@ const team = [
   },
   {
     id: 6,
+    name: "Becky Wright",
+    role: "Software Developer"
+  },
+  {
+    id: 7,
+    name: "Isaiah Kuti",
+    role: "Software Developer"
+  },
+  {
+    id: 8,
     name: "Karam Lees",
     role: "Senior Software Developer"
   },
   {
-    id: 7,
+    id: 9,
     name: "Eleanor Dowling",
     role: "Project Manager"
   },
   {
-    id: 8,
+    id: 10,
     name: "Haris Grey",
     role: "Tester"
   },
   {
-    id: 9,
+    id: 11,
     name: "Sohaib Farley",
     role: "Tester"
   },
   {
-    id: 10,
+    id: 12,
     name: "Phillip Mitchell",
     role: "Hard Man"
   },
