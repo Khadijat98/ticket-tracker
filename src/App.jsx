@@ -9,12 +9,9 @@ const App = () => {
     <div className="app">
     <h1 className="app-title">Title Tracker</h1>
     <section className="employee-grid">
-      <section className="employee-grid__card">
-        <Employee employeeName = {team[0].name} employeeRole = {team[0].role}/>
-      </section>
+        <Employee employeesArr={team}/>
     </section>
     </div>
-    
     </>
   )
 }

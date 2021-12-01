@@ -2,11 +2,17 @@ import React from "react";
 import "./Employee.scss";
 
 const Employee = (props) => {
-  const {employeeName, employeeRole} = props;
+  const {employeesArr} = props;
 
-  return <section>
-    <p className="employee-content">{employeeName}</p>
-    <p className="employee-content">{employeeRole}</p>
+  const employeeCards = employeesArr.map((employee) => {
+    return <div className="employee-card" key={employee.id}>
+      <p className="employee-content">{employee.name}</p>
+      <p className="employee-content">{employee.role}</p>
+    </div>
+  })
+
+  return <section className="employee-cards">
+    {employeeCards}
   </section>
 }
 
