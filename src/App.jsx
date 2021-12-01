@@ -8,7 +8,7 @@ const App = () => {
     <>
     <div className="app">
     <h1 className="app-title">Title Tracker</h1>
-    <section className="employee-grid">
+    <section>
         <Employee employeesArr={team}/>
     </section>
     </div>

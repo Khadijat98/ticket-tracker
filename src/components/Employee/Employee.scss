@@ -17,10 +17,10 @@
 }
 
 .employee-card {
-  border: 1px solid gray;
+  border: 1px solid $secondary-colour;
   border-radius: 5px;
-  background-color: $employee-card-colour;
-  box-shadow: 0px 2px 2px 1px gray;
+  background-color: $tertiary-colour;
+  box-shadow: 0px 2px 2px 1px $secondary-colour, 1px 3px 4px 2px $secondary-colour, 2px 4px 5px 3px $secondary-colour;
   height: 300px;
   width: 250px;
 
@@ -31,9 +31,15 @@
 }
 
 .employee-content {
-  color: $text-colour;
+  color: $secondary-colour;
+  text-shadow: 0px 1px 1px $tertiary-colour, 1px 2px 2px $primary-colour;
   font-weight: bolder;
   text-align: center;
   padding-top: 10px;
   font-size: 20px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
 }
