@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <div className="app">
-    <h1 className="app-title">Title Tracker</h1>
+    <h1 className="app__title">Title Tracker</h1>
     <section>
         <Employee employeesArr={team}/>
     </section>

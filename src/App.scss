@@ -11,13 +11,14 @@
   background-color: $primary-colour;
   height: 100%;
   width: 100%;
+
+  &__title {
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: $secondary-colour;
+    text-shadow: 0px 1px 1px $tertiary-colour, 1px 2px 2px $tertiary-colour, 2px 3px 3px $tertiary-colour;
+  }
 }
 
-.app-title {
-  padding: 50px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 45px;
-  color: $secondary-colour;
-  text-shadow: 0px 1px 1px $tertiary-colour, 1px 2px 2px $tertiary-colour, 2px 3px 3px $tertiary-colour;
-}
