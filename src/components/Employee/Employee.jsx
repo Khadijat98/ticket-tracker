@@ -9,7 +9,7 @@ const Employee = (props) => {
     return <div className="employee-card" key={employee.id}>
       <p className="employee-card__content">{employee.name}</p>
       <p className="employee-card__content">{employee.role}</p>
-      <div className="counter-container">
+      <div className="counter">
         < Counter />
       </div>
     </div>

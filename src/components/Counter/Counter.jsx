@@ -16,7 +16,7 @@ const Counter = () => {
 
     return <div className="counter">
       <p className="counter__header">Ticket</p>
-      <div className="counter__button-container">
+      <div className="counter__buttons">
         <button onClick={handleIncrement} className="counter__button">+</button>
         <p className="counter__button--text">{counter}</p>
         <button onClick={handleDecrement} className="counter__button">-</button>
