@@ -12,36 +12,46 @@
   width: 200px;
   text-align: center;
   margin-top: 50px;
+
+  &__header {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: $secondary-colour;
+    text-shadow: 0px 0px 1px $primary-colour;
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    gap: 40px;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    color: $secondary-colour;
+
+    &:hover {
+      cursor: pointer;
+      text-shadow: 0px 1px $primary-colour;
+    }
+    
+    &:active {
+      transform: translate(1px, 1px);
+    }
+
+    &--text {
+      font-size: 25px;
+    }
+
+  }
+  
 }
 
-.counter__header {
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 20px;
-  color: $secondary-colour;
-  text-shadow: 0px 0px 1px $primary-colour;
-}
 
-.counter__button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20px;
-  gap: 40px;
-}
 
-.counter__button {
-  background-color: transparent;
-  border: transparent;
-  font-size: 30px;
-  color: $secondary-colour;
-}
 
-.counter__button:hover {
-  cursor: pointer;
-  text-shadow: 0px 1px $primary-colour;
-}
-
-.counter__button:active {
-  transform: translate(1px, 1px);
-}
